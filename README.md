@@ -32,16 +32,10 @@ Before you begin, you will need to download and prepare the external libraries (
 ### Installing the Script
 1. Clone this repository or download the `QuickScanPro.ps1` script directly to your computer.
 2. Ensure the `BouncyCastle.Crypto.dll` and `itextsharp.dll` libraries are placed in the same directory as the script.
-3. Unblock the DLL files if necessary using the `Unblock-File` PowerShell command, e.g., `Unblock-File -Path ".\BouncyCastle.Crypto.dll"`.
 
 ### Running the Script
 1. Open PowerShell in the directory containing the script and the required DLL files.
-2. Execute the script by typing `.\QuickScanPro.ps1`.
-3. Follow the on-screen prompts to select the scanning options and process your documents or photos.
-
-## Usage
-1. Open PowerShell in the directory containing the script.
-2. Execute the script by typing `.\QuickScanPro.ps1`.
+2. Execute the script by typing `.\QuickScanPro.ps1` or simply open the script by double-click.
 3. Follow the on-screen prompts to select the scanning options and process your documents or photos.
 
 ## Contributing

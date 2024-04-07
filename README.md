@@ -1,7 +1,7 @@
 # QuickScanPro
 
 ## Overview
-The QuickScanPro PowerShell script is designed to facilitate the scanning of documents and photos, particularly Polaroid pictures, and converting them into PDF format. It provides an easy-to-use command-line interface for Windows PowerShell, integrating with external dependencies for processing.
+The QuickScanPro PowerShell script is designed to facilitate the scanning of documents and photos, particularly Polaroid pictures. It offers users the flexibility to convert scanned images into PDF format if desired. The script provides an easy-to-use command-line interface for Windows PowerShell, integrating with external dependencies for processing. This flexibility ensures that QuickScanPro can cater to various user needs, whether it's preserving the original scan format or opting for the convenience of PDFs.
 
 ## Features
 - **Polaroid and Full-Page Scanning:** Offers the option to scan either individual Polaroid photos or full pages.

@@ -1,13 +1,19 @@
 # 📸 QuickScanPro
 
 <p align="center">
+  <img src="https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white" alt="PowerShell">
+  <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="Windows">
+  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License: MIT">
+</p>
+
+<p align="center">
   <a href="https://github.com/sponsors/ChromuSx"><img src="https://img.shields.io/badge/Sponsor-GitHub-EA4AAA?style=for-the-badge&logo=github-sponsors&logoColor=white" alt="GitHub Sponsors"></a>
   <a href="https://ko-fi.com/chromus"><img src="https://img.shields.io/badge/Support-Ko--fi-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white" alt="Ko-fi"></a>
   <a href="https://buymeacoffee.com/chromus"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me a Coffee"></a>
   <a href="https://www.paypal.com/paypalme/giovanniguarino1999"><img src="https://img.shields.io/badge/Donate-PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white" alt="PayPal"></a>
 </p>
 
-## Overview
+## 📖 Overview
 
 QuickScanPro is a PowerShell script designed to facilitate the scanning of documents and photos, especially Polaroid pictures. It allows users to easily convert scanned images into PDF format. With a simple command-line interface for Windows PowerShell, QuickScanPro integrates external dependencies to enhance functionality, ensuring an efficient and flexible user experience.
 
@@ -27,7 +33,7 @@ QuickScanPro is a PowerShell script designed to facilitate the scanning of docum
 
 Before running QuickScanPro, you need to download and prepare the external libraries (**BouncyCastle.Crypto.dll** and **itextsharp.dll**) needed for the script to work.
 
-### Preparing External Libraries
+### 📦 Preparing External Libraries
 
 - **BouncyCastle.Crypto.dll**
   1. Download the library from "The Legion of the Bouncy Castle."
@@ -41,7 +47,7 @@ Before running QuickScanPro, you need to download and prepare the external libra
   3. Extract the ZIP file and locate the DLL in the **lib** folder.
   4. Place the DLL in the same directory as the **QuickScanPro.ps1** script.
 
-### Installing the Script
+### 🔧 Installing the Script
 
 1. **Clone** this repository or **download** the **QuickScanPro.ps1** script directly to your computer.
 2. Ensure the **BouncyCastle.Crypto.dll** and **itextsharp.dll** libraries are in the same directory as the script.
@@ -66,12 +72,12 @@ Contributions are welcome! If you have a feature request, bug report, or want to
 
 This project is completely free and open source. If you find it useful and would like to support its continued development and updates, consider making a donation. Your support helps keep the project alive and motivates me to add new features and improvements!
 
-<div align="center">
+<p align="center">
   <a href="https://github.com/sponsors/ChromuSx"><img src="https://img.shields.io/badge/Sponsor-GitHub-EA4AAA?style=for-the-badge&logo=github-sponsors&logoColor=white" alt="GitHub Sponsors"></a>
   <a href="https://ko-fi.com/chromus"><img src="https://img.shields.io/badge/Support-Ko--fi-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white" alt="Ko-fi"></a>
   <a href="https://buymeacoffee.com/chromus"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me a Coffee"></a>
   <a href="https://www.paypal.com/paypalme/giovanniguarino1999"><img src="https://img.shields.io/badge/Donate-PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white" alt="PayPal"></a>
-</div>
+</p>
 
 Every contribution, no matter how small, is greatly appreciated! ❤️
 
@@ -82,4 +88,10 @@ This project is open-source and available under the **MIT License**.
 ## 🙏 Acknowledgements
 
 Special thanks to the creators of the **iTextSharp** and **BouncyCastle** libraries for providing the essential tools needed for PDF conversion.
+
+---
+
+<div align="center">
+  <sub>Made with ❤️ by <a href="https://github.com/ChromuSx">Giovanni Guarino</a></sub>
+</div>
 
